@@ -1,2 +1,2 @@
 # Tab-Closing-Extension
-Chrome Extension that closes pre-mentioned tabs and opens new tab pre-mentioned tabs
+A chrome extension that let the user close specific tabs when clicked upon. It also opens new tabs that are already specified.
