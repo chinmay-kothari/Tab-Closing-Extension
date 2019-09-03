@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Emergency Tab Closer",
+  "description": "This allows the user to close pre-specified tabs in the browser(if open) in case of an immediate need to do the same. A Chinmay Kothari production",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "etc.png",
+    "default_title": "Initiate Closure of Unwanted Tabs"
+  },
+  "background": {
+  "scripts":["background.js"]
+  },
+
+  "permissions": [
+    "<all_urls>",
+	"browsingData",
+	"history",
+	"tabs"
+  ]
+}
